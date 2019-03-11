@@ -367,7 +367,7 @@ Draymond Green
 </tr>
 </tbody>
 </table>
--   Then we display the shooting on the court and further analysis the effectiveness of shooting of different players in various positions on the court.
+-   Then we display the shooting on the court and further analysis the effectiveness of shooting of different players in various positions on the court..
 
     1.  From the chart, it is clear that compared to other three players, Curry and Thompson have more shots made near the 3-point arc and their success rate is also higher. This correponds to our anlaysis above. Interestingly, Curry seems to have better performance for 3-point shooting on the left side of the arc than the right side.
 
