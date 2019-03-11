@@ -219,11 +219,11 @@ kable(gsw_player, caption='Effective Shooting % by Player')
 
 * Then we display the shooting on the court and further analysis the effectiveness of shooting of different players in various positions on the court..
 
-    1. From the chart, it is clear that compared to other three players, Curry and Thompson have more shots made near the 3-point arc and their success rate is also higher. This correponds to our anlaysis above. Interestingly, Curry seems to have better performance for 3-point shooting on the left side of the arc than the right side.
+1. From the chart, it is clear that compared to other three players, Curry and Thompson have more shots made near the 3-point arc and their success rate is also higher. This correponds to our anlaysis above. Interestingly, Curry seems to have better performance for 3-point shooting on the left side of the arc than the right side.
     
-    2. Apart from the 3-point shooting, 2-point shooting also reveals a pattern among the five players. Apparently, Durant and Thompson made a lot of shots inside the 3-point arc and Curry has relatively less. Durant's success rate seems the highest among the three players.
+2. Apart from the 3-point shooting, 2-point shooting also reveals a pattern among the five players. Apparently, Durant and Thompson made a lot of shots inside the 3-point arc and Curry has relatively less. Durant's success rate seems the highest among the three players.
     
-    3. Iguodala and Green have obviously less shots than the other three players, which means shooting and getting point is not their main task in the team. Instead of a shooter, they may mainly serve as defenders to hinder opponents from getting more points.
+3. Iguodala and Green have obviously less shots than the other three players, which means shooting and getting point is not their main task in the team. Instead of a shooter, they may mainly serve as defenders to hinder opponents from getting more points.
     
 ```{r out.width="100%", echo=FALSE,fig.align="center"}
 knitr::include_graphics('../images/gsw-shot-charts.png')
