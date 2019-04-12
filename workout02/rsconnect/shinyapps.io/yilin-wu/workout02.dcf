@@ -5,6 +5,6 @@ account: yilin-wu
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 858921
-bundleId: 2006972
+bundleId: 2007021
 url: https://yilin-wu.shinyapps.io/workout02/
-when: 1555102205.75812
+when: 1555103384.48576
