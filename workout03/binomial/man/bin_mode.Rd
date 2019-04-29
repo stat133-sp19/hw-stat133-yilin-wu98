@@ -7,7 +7,9 @@
 bin_mode(trials, prob)
 }
 \arguments{
-\item{trials}{integer prob double}
+\item{trials}{integer}
+
+\item{prob}{double}
 }
 \value{
 mode double

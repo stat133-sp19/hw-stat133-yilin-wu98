@@ -7,7 +7,9 @@
 bin_skewness(trials, prob)
 }
 \arguments{
-\item{trials}{integer prob double}
+\item{trials}{integer}
+
+\item{prob}{double}
 }
 \value{
 skewness double

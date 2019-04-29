@@ -7,7 +7,9 @@
 bin_choose(n, k)
 }
 \arguments{
-\item{n, k}{integer}
+\item{n}{integer}
+
+\item{k}{integer}
 }
 \value{
 the choosen number integer

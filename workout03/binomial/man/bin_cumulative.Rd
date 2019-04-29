@@ -7,7 +7,9 @@
 bin_cumulative(trials, prob)
 }
 \arguments{
-\item{trials}{integer prob double}
+\item{trials}{integer}
+
+\item{prob}{double}
 }
 \value{
 the dataframe of cumulative binomial distribution

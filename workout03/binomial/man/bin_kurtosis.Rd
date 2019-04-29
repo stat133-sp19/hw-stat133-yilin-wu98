@@ -7,7 +7,9 @@
 bin_kurtosis(trials, prob)
 }
 \arguments{
-\item{trials}{integer prob double}
+\item{trials}{integer}
+
+\item{prob}{double}
 }
 \value{
 kurtosis double

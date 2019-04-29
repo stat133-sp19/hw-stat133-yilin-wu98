@@ -7,7 +7,11 @@
 bin_probability(success, trials, prob)
 }
 \arguments{
-\item{success}{vector; trials integer prob double}
+\item{success}{integer vector}
+
+\item{trials}{integer}
+
+\item{prob}{double}
 }
 \value{
 probability vector
