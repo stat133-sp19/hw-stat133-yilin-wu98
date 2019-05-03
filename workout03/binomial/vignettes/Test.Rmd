@@ -16,4 +16,79 @@ knitr::opts_chunk$set(
 
 ```{r setup}
 library(binomial)
+library(ggplot2)
 ```
+
+## Binomial Distribution
+
+The package `"binomial"` is a minimal implementation for simulating binomial distribution, given the number of trials and the probability. It provides a series of related functions to help better illustrate the binomial distribution.
+
+## Creating a bin_variable
+
+You can create a `"binomial variable"` object with the function `bin_variable()`. You can change the arguments `trials` and `prob` to get any binomial variable you want:
+
+```{r}
+#create a binomial variable with number of trials and the probability
+my_var <- bin_variable(trials=10,prob=0.5)
+my_var
+```
+You can also know the overall probability given the number of success, the number of trials and the probability with the function `bin_probability` and the arguments `success`, `trials` and `prob`
+```{r}
+prob <- bin_probability(trials=10,success=5,prob=0.5)
+prob
+```
+
+
+You can know the number of combinations given the number of trails and success and you can change the arguments `n` and `k` to the value you want:
+
+```{r}
+num_comb <- bin_choose(n=10,k=3)
+num_comb
+```
+## Summary
+The `summary()` function gives you a nice table of related measures e.g. mean,variance,mode,skewness, kurtosis:
+
+```{r}
+summary(my_var)
+```
+## Related Measurements
+
+The `bin_mean` function gives you the mean of the binomial distribution given arguments `trials` and `prob`:
+```{r}
+bin_mean(trials=10,prob=0.5)
+```
+The `bin_variance` function gives you the variance of the binomial distribution given arguments `trials` and `prob`:
+```{r}
+bin_variance(trials=10,prob=0.5)
+```
+
+The `bin_mode` function gives you the mode of the binomial distribution given arguments `trials` and `prob`:
+```{r}
+bin_mode(trials=10,prob=0.5)
+```
+The `bin_skewness` function gives you the skewness of the binomial distribution given arguments `trials` and `prob`:
+```{r}
+bin_skewness(trials=10,prob=0.5)
+```
+
+The `bin_kurtosis` function gives you the kurtosis of the binomial distribution given arguments `trials` and `prob`:
+```{r}
+bin_kurtosis(trials=10,prob=0.5)
+```
+## Create a binomial distribution
+
+You can create a binomial distribution with the function `bin_distribution` given the arguments of `trials` and `prob` and use function `plot` to draw a plot for binomial distribution:
+
+```{r}
+my_bin_dis <- bin_distribution(trials=10,prob=0.5)
+my_bin_dis
+plot(my_bin_dis)
+```
+
+You can also create a cumulative binomial distribution with the function `bin_cumulative` and arguments are `trials` and `prob`. Then use function `plot` to draw a plot for that:
+```{r}
+my_bin_cum <- bin_cumulative(trials=10,prob=0.5)
+my_bin_cum
+plot(my_bin_cum)
+```
+
