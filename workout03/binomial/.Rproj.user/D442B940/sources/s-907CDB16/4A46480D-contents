@@ -1,6 +1,0 @@
-context("Test hello function")
-
-test_that({
-  expect_equal(hello(""),"Hello ")
-  expect_length(hello(""),1)
-})
